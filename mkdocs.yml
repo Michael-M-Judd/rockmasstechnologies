@@ -25,8 +25,8 @@ site_author: Martin Donath
 site_url: http://squidfunk.github.io/mkdocs-material/
 
 # Repository
-repo_name: squidfunk/mkdocs-material
-repo_url: https://github.com/squidfunk/mkdocs-material
+repo_name: michael-m-judd/rockmasstechnologies
+repo_url: https://michael-m-judd.github.io/rockmasstechnologies
 
 # Copyright
 copyright: 'Copyright &copy; 2016 - 2017 Martin Donath'
