@@ -366,24 +366,6 @@ the labels (e.g. *Previous* and *Next* in the footer), you can override the
 file `partials/language.html` and provide your own translations inside the
 macro `t`:
 
-``` jinja
-{% macro t(key) %}{{ {
-  "language": "en",
-  "edit.link.title": "Edit this page",
-  "footer.previous": "Previous",
-  "footer.next": "Next",
-  "meta.comments": "Comments",
-  "meta.source": "Source",
-  "search.languages": "",
-  "search.placeholder": "Search",
-  "search.result.placeholder": "Type to start searching",
-  "search.result.none": "No matching documents",
-  "search.result.one": "1 matching document",
-  "search.result.other": "# matching documents",
-  "source.link.title": "Go to repository",
-  "toc.title": "Table of contents"
-}[key] }}{% endmacro %}
-```
 
 Just copy the file from the original theme and make your adjustments. See the
 section on [overriding partials][18] and the general guide on
@@ -403,13 +385,7 @@ for other languages and even multilingual search can be activated by setting
 the key `search.languages` to a comma-separated list of supported 2-letter
 language codes, e.g.:
 
-``` jinja
-{% macro t(key) %}{{ {
-  ...
-  "search.languages": "en, de, ru",
-  ...
-}[key] }}{% endmacro %}
-```
+
 
 This will automatically load the stemmers for the specified languages and
 set them up with site search, nothing else to be done.
