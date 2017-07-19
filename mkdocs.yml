@@ -19,14 +19,14 @@
 # IN THE SOFTWARE.
 
 # Project information
-site_name: Material for MkDocs
-site_description: A Material Design theme for MkDocs
-site_author: Martin Donath
-site_url: http://squidfunk.github.io/mkdocs-material/
+site_name: RockMass Technologies
+site_description: Documentation for Rockmass Technologies Products
+site_author: Rockmass Technologies
+site_url: https://michael-m-judd.github.io/rockmasstechnologies
 
 # Repository
 repo_name: michael-m-judd/rockmasstechnologies
-repo_url: https://michael-m-judd.github.io/rockmasstechnologies
+repo_url: https://github.com/Michael-M-Judd/rockmasstechnologies/
 
 # Copyright
 copyright: 'Copyright &copy; 2016 - 2017 Martin Donath'
