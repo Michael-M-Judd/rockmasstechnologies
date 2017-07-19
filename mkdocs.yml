@@ -32,7 +32,7 @@ repo_url: https://michael-m-judd.github.io/rockmasstechnologies
 copyright: 'Copyright &copy; 2016 - 2017 Martin Donath'
 
 # Theme directory
-theme_dir: material
+theme_dir: 'mkdocs-material/material'
 
 # Options
 extra:
